@@ -1,6 +1,6 @@
 %define libname %mklibname KF6People
 %define devname %mklibname KF6People -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kpeople
 Version: 5.240.0
@@ -77,8 +77,6 @@ Provides access to all contacts and aggregates them by person
 %files -n %{devname}
 %{_includedir}/KF6/KPeople
 %{_libdir}/cmake/KF6People
-%{_qtdir}/mkspecs/modules/qt_KPeople.pri
-%{_qtdir}/mkspecs/modules/qt_KPeopleWidgets.pri
 %{_qtdir}/doc/KF6People.*
 
 %files -n %{libname}
