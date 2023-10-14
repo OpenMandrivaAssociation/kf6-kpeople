@@ -1,6 +1,6 @@
 %define libname %mklibname KF6People
 %define devname %mklibname KF6People -d
-%define git 20231011
+%define git 20231014
 
 Name: kf6-kpeople
 Version: 5.240.0
