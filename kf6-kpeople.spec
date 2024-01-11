@@ -39,6 +39,7 @@ BuildRequires: cmake(KF6CoreAddons)
 BuildRequires: cmake(KF6I18n)
 BuildRequires: cmake(KF6WidgetsAddons)
 BuildRequires: cmake(KF6ItemViews)
+BuildRequires: cmake(KF6Contacts)
 Requires: %{libname} = %{EVRD}
 
 %description
