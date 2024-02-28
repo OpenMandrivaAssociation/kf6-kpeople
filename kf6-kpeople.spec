@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6People
 %define devname %mklibname KF6People -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-kpeople
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kpeople/-/archive/master/kpeople-master.tar.bz2#/kpeople-%{git}.tar.bz2
