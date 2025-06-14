@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kpeople
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kpeople/-/archive/master/kpeople-master.tar.bz2#/kpeople-%{git}.tar.bz2
@@ -86,7 +86,6 @@ Provides access to all contacts and aggregates them by person
 %files -n %{devname}
 %{_includedir}/KF6/KPeople
 %{_libdir}/cmake/KF6People
-%{_qtdir}/doc/KF6People.*
 
 %files -n %{libname}
 %{_libdir}/libKF6People.so*
